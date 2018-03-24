@@ -1,0 +1,40 @@
+{
+  "_args": [
+    [
+      "@pentaho/viz-api@https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz",
+      "/Users/dleao/work/projects/pentaho-engineering-samples/Samples_for_Extending_Pentaho/javascript-apis/platform/visual-samples-bar-d3"
+    ]
+  ],
+  "_development": true,
+  "_from": "@pentaho/viz-api@https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz",
+  "_id": "@pentaho/viz-api@https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz",
+  "_inBundle": false,
+  "_integrity": "sha1-kvhpL19mhDAlCdY8K2qPj5wfEIc=",
+  "_location": "/@pentaho/viz-api",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "@pentaho/viz-api@https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz",
+    "name": "@pentaho/viz-api",
+    "escapedName": "@pentaho%2fviz-api",
+    "scope": "@pentaho",
+    "rawSpec": "https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz",
+    "saveSpec": "https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz",
+    "fetchSpec": "https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_spec": "https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz",
+  "_where": "/Users/dleao/work/projects/pentaho-engineering-samples/Samples_for_Extending_Pentaho/javascript-apis/platform/visual-samples-bar-d3",
+  "author": {
+    "name": "@pentaho/millenniumfalcon"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.3"
+  },
+  "description": "Pentaho JavaScript APIs dev package",
+  "license": "Apache-2.0",
+  "name": "@pentaho/viz-api",
+  "version": "https://github.com/pentaho/pentaho-platform-plugin-common-ui/releases/download/v3.0.0-beta2/pentaho-viz-api-v3.0.0.tgz"
+}

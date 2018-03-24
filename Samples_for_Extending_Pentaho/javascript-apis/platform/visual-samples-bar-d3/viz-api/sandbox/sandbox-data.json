@@ -1,6 +1,6 @@
 {
   "model": [
-    {"name": "productFamily", "type": "string", "label": "Product Family", "isKey": true},
+    {"name": "productFamily", "type": "string", "label": "Product Family"},
     {"name": "sales",         "type": "number", "label": "Sales"}
   ],
   "rows": [
