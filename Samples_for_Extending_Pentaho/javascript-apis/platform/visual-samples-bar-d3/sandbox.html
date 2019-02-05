@@ -3,42 +3,42 @@
 
 <head>
   <style>
-    .pentaho-visual-base-model {
+    .pentaho-visual-base-Model {
       border: solid 1px #005da6;
     }
   </style>
 
-  <!-- load the VizAPI dev context -->
-  <script type="text/javascript" src="node_modules/@pentaho/viz-api/webcontext.js"></script>
+  <script type="module">
+    import loader from "./node_modules/@pentaho/viz-api/loader.js";
 
-  <script type="text/javascript">
-
-    /* globals require */
-
-    require.config({
+    loader.config({
+      baseUrl: "./node_modules/@pentaho/viz-api/",
+      application: "my-app",
+      debug: false,
       paths: {
+        "pentaho-visual-samples-bar-d3": ".",
         "d3": "./node_modules/d3/build/d3"
       }
     });
 
-    require([
+    loader([
       "pentaho-visual-samples-bar-d3/Model",
       "pentaho/visual/base/View",
       "pentaho/data/Table",
       "json!./sandbox-data.json"
-    ], function(BarModel, BaseView, Table, dataSpec) {
+    ]).then(function([BarModel, BaseView, Table, dataSpec]) {
 
       // Create the visualization model.
-      var modelSpec = {
+      const modelSpec = {
         "data": new Table(dataSpec),
         "category": {fields: ["productFamily"]},
         "measure": {fields: ["sales"]}
       };
 
-      var model = new BarModel(modelSpec);
+      const model = new BarModel(modelSpec);
 
       // Create the visualization view.
-      var viewSpec = {
+      const viewSpec = {
         width: 1400,
         height: 300,
         domContainer: document.getElementById("viz_div"),
